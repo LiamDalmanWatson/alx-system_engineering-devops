@@ -9,3 +9,4 @@
 8-James_Bond: sets permission to the file hello
 9-sets the mode of the file hello
 10-sets the mode of the file hello to the same as olleh's mode
+11-a script that adds execute permission to all subdirectories of the current dirctory for the owner, the group and all others
