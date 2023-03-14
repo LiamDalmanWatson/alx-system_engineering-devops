@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(echo $path | wc -w)
+count=$((echo $path | wc -w))
