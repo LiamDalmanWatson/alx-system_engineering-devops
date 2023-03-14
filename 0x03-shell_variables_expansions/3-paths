@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$((echo $path | grep -o "./" | wc -w))
+count=$((`echo $path | grep -o "./" | wc -l`+1))
