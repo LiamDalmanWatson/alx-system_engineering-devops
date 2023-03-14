@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ':' '\n' | wc -l | awk '{print $1-1}'
+count=$(echo $path | wc -w)
